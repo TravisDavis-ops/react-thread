@@ -11,21 +11,37 @@ const initialState = {
             id: v4(),
             title: "TestThread",
             description: "A description.",
-          comments: [
-                {id: v4(), body: "Ha Funny"}
+            comments: [
+                {id: v4(), body: "Ha Funny 0"},
+                {id: v4(), body: "Ha Funny 1"},
+                {id: v4(), body: "Ha Funny 2"},
+                {id: v4(), body: "Ha Funny 3"},
+                {id: v4(), body: "Ha Funny 4"},
             ],
         },
         {
             id: v4(),
             title: "TestThread2",
             description: "A description.",
-          comments: [],
+            comments: [
+                {id: v4(), body: "Ha Funny 0"},
+                {id: v4(), body: "Ha Funny 1"},
+                {id: v4(), body: "Ha Funny 2"},
+                {id: v4(), body: "Ha Funny 3"},
+                {id: v4(), body: "Ha Funny 4"},
+            ],
         },
         {
             id: v4(),
             title: "TestThread",
             description: "A description.",
-          comments: [],
+            comments: [
+                {id: v4(), body: "Ha Funny 0"},
+                {id: v4(), body: "Ha Funny 1"},
+                {id: v4(), body: "Ha Funny 2"},
+                {id: v4(), body: "Ha Funny 3"},
+                {id: v4(), body: "Ha Funny 4"},
+            ],
         },
 
     ],
