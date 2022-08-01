@@ -9,9 +9,9 @@ export default function ThreadList(props){
     return (
         <ListGroup>
             {
-                threads.map(thread => {
+                threads.map((thread, idx) => {
                     return (
-                        <ListGroup.Item>
+                        <ListGroup.Item key={idx}>
                             <Thread thread={thread}></Thread>
                         </ListGroup.Item>
                     );
