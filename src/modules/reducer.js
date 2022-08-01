@@ -5,6 +5,30 @@ const initialState = {
     userList: [
         {id: v4(), username: "test", password: "pass"}
     ],
+
+    threadList: [
+        {
+            id: v4(),
+            title: "TestThread",
+            description: "A description.",
+          comments: [
+                {id: v4(), body: "Ha Funny"}
+            ],
+        },
+        {
+            id: v4(),
+            title: "TestThread2",
+            description: "A description.",
+          comments: [],
+        },
+        {
+            id: v4(),
+            title: "TestThread",
+            description: "A description.",
+          comments: [],
+        },
+
+    ],
 };
 export const LOGIN = "login";
 export const LOGOUT = "logout";
